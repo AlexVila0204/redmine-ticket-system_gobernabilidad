@@ -1,4 +1,12 @@
 ### Test API redmine
-@key = ...
-### Send issue
-POST https://npr3s.com/control/projects/...
+POST http://localhost:3000/projects/gestion-de-sistema-de-tickets/issues.json
+Content-Type: application/json
+X-Redmine-API-Key:e7a11d669cac0296017269f8ce4687283004a2e4
+
+{
+  "issue": {
+    "project_id": 1,
+    "subject": "Tarea creada desde VS Code",
+    "description": "Esta es una prueba usando el archivo .http"
+  }
+}
