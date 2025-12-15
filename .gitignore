@@ -10,7 +10,6 @@ vendor/
 config/database.yml
 
 *.pdf
-*.html
 *.jpg
 
 .vscode/
